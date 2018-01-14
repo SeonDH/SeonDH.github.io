@@ -4,7 +4,7 @@ description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and w
 cover: assets/images/bg.jpg
 logo: assets/images/logo_SeonDH.png
 favicon: assets/images/animal.png
-baseurl: "/SeonDH.github.io/master" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/SeonDH.github.io/master/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://raw.githubusercontent.com/SeonDH" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
