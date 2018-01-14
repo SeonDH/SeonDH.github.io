@@ -26,6 +26,10 @@
     </ul>
   </nav>
 
+  {% if site.home %}
+    <li class="ampstart-faq-item"><a href="{{homepage}}" class="text-decoration-none">Home</a></li>
+  {% endif %}
+
   {% if site.about %}
     <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ site.about }}" class="text-decoration-none">About</a></li>
   {% endif %}
