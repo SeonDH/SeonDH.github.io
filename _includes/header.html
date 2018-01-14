@@ -26,6 +26,9 @@
     </ul>
   </nav>
 
+  {% if site.about %}
+    <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ site.contact }}" class="text-decoration-none">Contact</a></li>
+  {% endif %}
 
   <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
     {% if site.twitter %}
