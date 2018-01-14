@@ -4,6 +4,7 @@ description: 잡다하게 쓰고 싶은 말을 적는 곳
 cover: assets/images/bg.jpg
 logo: assets/images/logo_SeonDH.png
 favicon: assets/images/animal.png
+homepage: "https://SeonDH.github.io/"
 baseurl: "/SeonDH.github.io/master/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://raw.githubusercontent.com/SeonDH" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
@@ -14,7 +15,7 @@ twitter: twitter
 github:  github
 
 #Additional Pages
-about: about
+about: about.md
 contact: contact
 privacy-policy: privacy-policy
 
