@@ -13,7 +13,6 @@ paginate:	5 # The number of posts to show per page on your homepage
 facebook: seon.dohhyung
 twitter: twitter
 github:  SeonDH
-disqus: seon-dohhyung
 
 #Additional Pages
 home: home
