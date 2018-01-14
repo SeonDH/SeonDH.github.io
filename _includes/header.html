@@ -13,18 +13,6 @@
   <div class="flex justify-start items-center ampstart-sidebar-header">
     <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
   </div>
-  <nav class="ampstart-sidebar-nav ampstart-nav">
-    <ul class="list-reset m0 p0 ampstart-label">
-        {% for entry in site.data.navigation %}
-            {% if entry.url == current_page %}
-                {% assign current = ' class="current"' %}
-            {% else %}
-              {% assign current = null %}
-            {% endif %}
-
-      {% endfor %}
-    </ul>
-  </nav>
   <ul class="ampstart-sidebar-faq list-reset m0">
     {% if site.home %}
       <li class="ampstart-faq-item"><a href="{{homepage}}" class="text-decoration-none">Home</a></li>

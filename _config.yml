@@ -1,11 +1,11 @@
 # Site settings
 title: SeonDH
 description: 잡다하게 쓰고 싶은 말을 적는 곳
-cover: assets/images/bg.jpg
-logo: assets/images/logo_SeonDH.png
-favicon: assets/images/animal.png
+cover: master/assets/images/bg.jpg
+logo: master/assets/images/logo_SeonDH.png
+favicon: master/assets/images/animal.png
 homepage: "https://SeonDH.github.io/"
-baseurl: "/SeonDH.github.io/master/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/SeonDH.github.io/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://raw.githubusercontent.com/SeonDH" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
@@ -39,7 +39,7 @@ safe: False
 lsi: False
 username: seon.dohhyung #github username
 repo: SeonDH #github repository
-branch:  #branch
+branch: "" #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
 production_url:  https://samanyougarg.com/
