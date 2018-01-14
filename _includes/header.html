@@ -19,7 +19,7 @@
             {% if entry.url == current_page %}
                 {% assign current = ' class="current"' %}
             {% else %}
-              {% if entry.title == "about" %}
+              {% if site.about %}
                 <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
                     <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ site.about }}" class="text-decoration-none">{{ entry.title }}</a></li>
                 </li>
