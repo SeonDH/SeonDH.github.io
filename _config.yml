@@ -10,16 +10,13 @@ url: "https://raw.githubusercontent.com/SeonDH" # the base hostname & protocol f
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
+facebook: seon.dohhyung
 twitter: twitter
-github:  github
+github:  SeonDH
 
 #Additional Pages
 home: home
 about: about.md
-contact: contact
-privacy-policy: privacy-policy
-
 
 permalink: /:title
 
