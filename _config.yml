@@ -15,6 +15,7 @@ twitter: twitter
 github:  github
 
 #Additional Pages
+home: home
 about: about.md
 contact: contact
 privacy-policy: privacy-policy
