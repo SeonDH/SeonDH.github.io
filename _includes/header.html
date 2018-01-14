@@ -18,15 +18,8 @@
         {% for entry in site.data.navigation %}
             {% if entry.url == current_page %}
                 {% assign current = ' class="current"' %}
-            
-            {% if site.about %}
-              <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
-                  <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ site.about }}" class="text-decoration-none">{{ entry.title }}</a></li>
-              </li>
             {% else %}
-              <li class="ampstart-nav-item ampstart-nav-dropdown relative " {{ current }}>
-                  <li class="ampstart-faq-item"><a href="{{ homepage }}" class="text-decoration-none">{{ entry.title }}</a></li>
-              </li>
+              {% assign current = null %}
             {% endif %}
 
       {% endfor %}
